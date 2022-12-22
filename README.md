@@ -6,3 +6,11 @@
 ##### - แบบ EMMC
 <p>1.1.1 Install the SDK Manager ติดต้งัใน Ubuntu 16.04, 18.04, or Ubuntu 20.04 ที่เป็ น arm64</p>
 <code>https://developer.nvidia.com/drive/sdk-manager</code>
+<img src="img/1.png" class="center">
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
