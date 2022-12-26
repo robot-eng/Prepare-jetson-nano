@@ -1,5 +1,5 @@
 # Prepare-jetson-nano
-### 1.ขั้นตอนเตรียมการ
+### 1.ขั้นตอนเตรียมการสำหรับ Jetson-nano
 #### 1.1 Jetson nano
 ##### - เเบบ SD card
 <code>https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#intro</code>
