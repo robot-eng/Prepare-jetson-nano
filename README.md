@@ -28,3 +28,17 @@ sudo apt install ./sdkmanager_[version]-[build#]_amd64.deb
 sdkmanager
 ```
 <p>$\color[RGB]{101, 240, 21}2.3$ ล็อกอิน NVIDIA SDK Manager</p>
+<br>
+<p align="center">
+  <img src="img/2.png" />
+</p>
+
+<p>$\color[RGB]{101, 240, 21}2.4$ เลือก jetpack ที่จะติดตั้ง</p>
+<br>
+<p align="center">
+  <img src="img/3.png" />
+</p>
+
+> **Note**
+> *แนะให้เอา Deepsteam ออกเพื่อไม่ให้การ Flash ข้อมูลเกินจาก ตัวeMMC ที่มีแค่16GB 
+<p>$\color[RGB]{101, 240, 21}2.4$ เลือก jetpack ที่จะติดตั้ง</p>
