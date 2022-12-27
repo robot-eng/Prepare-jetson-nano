@@ -10,7 +10,6 @@
 > ควรตรวจสอบดีๆในการลงไม่เช่นนั้นมันจะทำการติดตั้งทับกับในเครื่องเรา เพราะ NVIDIA เเนะนำให้ติดตั้งในเเบบจำลองเช่น VM WARE ที่เป็น ubuntu เพราะเซฟสุดถึงเเม้เกิดไรขึ้นก็ไม่เป็นไร!
 
 <a href="https://developer.nvidia.com/drive/sdk-manager"><code>https://developer.nvidia.com/drive/sdk-manager</code></a>
-<br><br>
 <p align="center">
   <img src="img/1.png" />
 </p>
@@ -28,13 +27,11 @@ sudo apt install ./sdkmanager_[version]-[build#]_amd64.deb
 sdkmanager
 ```
 <p>$\color[RGB]{101, 240, 21}2.4$ ล็อกอิน NVIDIA SDK Manager</p>
-<br>
 <p align="center">
   <img src="img/2.png" />
 </p>
 
 <p>$\color[RGB]{101, 240, 21}2.5$ เลือก jetpack ที่จะติดตั้ง</p>
-<br>
 <p align="center">
   <img src="img/3.png" />
 </p>
@@ -43,12 +40,10 @@ sdkmanager
 > *แนะให้เอา Deepsteam ออกเพื่อไม่ให้การ Flash ข้อมูลเกินจาก ตัว eMMC ถ้ามีแค่16GB 
 <p>$\color[RGB]{101, 240, 21}2.6$ ใช้สายจั๊บ หรือ อุปกรณ์อื่นที่สามารถเชื่อมขา pin $\color[RGB]{200, 1, 10}FC$ $\color[RGB]{200, 1, 10}REC$ กับ $\color[RGB]{105,105,105}GND$ ได้
 </p>
-<br>
 <p align="center">
   <img src="img/4.png" />
 </p>
 <p>$\color[RGB]{101, 240, 21}2.7$ เสียบสาย USB เข้ากับตัว jetson nano </p>
-<br>
 <p align="center">
   <img src="img/5.png" />
 </p>
@@ -56,7 +51,6 @@ sdkmanager
 > **Note**
 > **แนะนำ ควรเสียบสาย LAN อีกอันเพื่อกัน ip หลุดการเชื่อมหรือคง ip ไว้ในบางช่วงที่ Flash และกันการขาดตอนระหว่างช่วงของการ Flash
 <p>$\color[RGB]{101, 240, 21}2.8$ เสียบสาย power </p>
-<br>
 <p align="center">
   <img src="img/6.png" />
 </p>
@@ -69,17 +63,14 @@ lsusb | grep -i nvidia
   <img src="img/7.png" />
 </p>
 <p>$\color[RGB]{101, 240, 21}2.10$ เลือก Hardware ตัว borad $\color[RGB]{127,255,212}(step1)$</p>
-<br>
 <p align="center">
   <img src="img/8.png" />
 </p>
 <p>$\color[RGB]{101, 240, 21}2.11$ ดาวน์โหลดไฟล์ต่างๆที่จำเป็นต่อการ Flash และการเรียกใช้งาน $\color[RGB]{127,255,212}(step2)$</p>
-<br>
 <p align="center">
   <img src="img/9.png" />
 </p>
 <p>$\color[RGB]{101, 240, 21}2.11.1$ เมื่อทำ $\color[RGB]{127,255,212}step2$ ให้กด continue และทำการล็อกอินรหัส user</p>
-<br>
 <p align="center">
   <img src="img/10.png" />
 </p>
@@ -95,11 +86,9 @@ lsusb | grep -i nvidia
 
 <p><b>เเละตั้ง UserName และ password</b></p>
 <p>$\color[RGB]{101, 240, 21}2.13$ ถ้าต้องการติด SDK components ให้ทำการกรอกข้อมูลดังรูป และทำการกด install ถ้าไม่ต้องการให้ทำการกด Skip และกด yes เป็นอันเสร็จ $\color[RGB]{127,255,212}(step 4)$</p>
-<br>
 <p align="center">
   <img src="img/12.png" />
 </p>
-<br>
 <p align="center">
   <img src="img/13.png" />
 </p>
